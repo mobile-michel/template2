@@ -1,10 +1,12 @@
-<nav>
-    <ul>
-        <li><a href="/"><strong>Home</strong></a></li>
-    </ul>
-    <ul>
-        {% for nav in collections.primary %}
-        <li{% if page.url==nav.url %} aria-current="page" {% endif %}><a href="{{ nav.url }}">{{ nav.data.title }}</a></li>
-            {% endfor %}
-    </ul>
-</nav>
+<header class="container">
+    <nav>
+        <ul>
+            <li><a href="/"><strong>Home</strong></a></li>
+        </ul>
+        <ul>
+            {% for nav in collections.primary %}
+            <li{% if page.url==nav.url %} aria-current="page" {% endif %}><a href="{{ nav.url }}">{{ nav.data.title }}</a></li>
+                {% endfor %}
+        </ul>
+    </nav>
+</header>
