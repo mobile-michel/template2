@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@picocss/pico": "^1.5.9",
     "eleventy-sass": "^2.2.1"
   }
 }
