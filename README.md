@@ -2,6 +2,8 @@
 
 ## Eleventy, Pico & Blueprint with Sass processing
 
+### Plugin: eleventy-sass
+
 1. Installation
 2. Layout with global data
 3. Install Pico.css with SCSS files processing (eleventy-sass plugin)
